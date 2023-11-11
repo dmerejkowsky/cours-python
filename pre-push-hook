@@ -18,6 +18,7 @@ do
   if [[ "${local_sha}" = $z40 ]]; then
     echo "Deleting stuff, nothing to do"
   else
+    poetry check --lock
     poetry install --no-root
     poetry run python build.py --clean --werror
     poetry run python build.py --format pdf
