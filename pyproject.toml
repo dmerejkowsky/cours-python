@@ -11,7 +11,7 @@ sphinx-notfound-page = "^1.0"
 sphinx-book-theme = "1.0.1"
 
 [tool.poetry.group.dev.dependencies]
-sphinx-autobuild = "^0.7.1"
+sphinx-autobuild = "^2021"
 
 [build-system]
 requires = ["poetry>=0.12"]
