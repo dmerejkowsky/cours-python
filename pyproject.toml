@@ -3,6 +3,7 @@ name = "cours-python"
 version = "0.1.0"
 description = "Programmation en Python"
 authors = ["Dimitri Merejkowsky <dimitri.merejkowsky@tanker.io>"]
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.11"
